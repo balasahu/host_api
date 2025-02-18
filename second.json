@@ -1,0 +1,17 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Sagar Behera",
+    "email": "sagar.behera@example.com",
+    "role": "Technical Support Engineer"
+  },
+  "product": {
+    "id": 101,
+    "name": "Laptop",
+    "details": {
+      "price": 55000,
+      "stock": 20,
+      "category": "Electronics"
+    }
+  }
+}
