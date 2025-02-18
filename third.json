@@ -1,0 +1,32 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Sagar Behera",
+    "email": "sagar.behera@example.com",
+    "role": "Technical Support Engineer",
+    "address": {
+      "street": "123 Main St",
+      "city": "Bhubaneswar",
+      "state": "Odisha",
+      "zip": "751001"
+    },
+    "preferences": {
+      "language": "English",
+      "timezone": "IST"
+    }
+  },
+  "product": {
+    "id": 101,
+    "name": "Laptop",
+    "details": {
+      "price": 55000,
+      "stock": 20,
+      "category": "Electronics"
+    },
+    "seller": {
+      "name": "TechWorld",
+      "rating": 4.5,
+      "location": "Bangalore"
+    }
+  }
+}
