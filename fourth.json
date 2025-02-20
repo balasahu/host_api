@@ -1,0 +1,122 @@
+{
+  "company": {
+    "id": 5001,
+    "name": "TechWorld Solutions",
+    "address": {
+      "headquarters": {
+        "street": "456 Silicon Valley Ave",
+        "city": "Bangalore",
+        "state": "Karnataka",
+        "zip": "560001",
+        "country": "India"
+      },
+      "branches": [
+        {
+          "city": "Mumbai",
+          "state": "Maharashtra",
+          "employees": 120
+        },
+        {
+          "city": "Hyderabad",
+          "state": "Telangana",
+          "employees": 80
+        }
+      ]
+    },
+    "departments": [
+      {
+        "id": 101,
+        "name": "Engineering",
+        "employees": [
+          {
+            "id": 1,
+            "name": "Sagar Behera",
+            "email": "sagar.behera@techworld.com",
+            "role": "Technical Support Engineer",
+            "skills": ["Linux", "PowerShell", "Azure"],
+            "salary": {
+              "base": 910000,
+              "bonus": 50000
+            }
+          },
+          {
+            "id": 2,
+            "name": "Ananya Sharma",
+            "email": "ananya.sharma@techworld.com",
+            "role": "Software Developer",
+            "skills": ["Java", "Spring Boot", "React"],
+            "salary": {
+              "base": 1200000,
+              "bonus": 100000
+            }
+          }
+        ]
+      },
+      {
+        "id": 102,
+        "name": "Sales",
+        "employees": [
+          {
+            "id": 3,
+            "name": "Rohit Kumar",
+            "email": "rohit.kumar@techworld.com",
+            "role": "Sales Manager",
+            "skills": ["Negotiation", "CRM", "Presentation"],
+            "salary": {
+              "base": 850000,
+              "bonus": 70000
+            }
+          }
+        ]
+      }
+    ],
+    "products": [
+      {
+        "id": 201,
+        "name": "UltraBook Pro",
+        "category": "Electronics",
+        "price": 120000,
+        "specifications": {
+          "processor": "Intel Core i7",
+          "ram": "16GB",
+          "storage": "1TB SSD",
+          "os": "Windows 11"
+        },
+        "stock": 50,
+        "rating": 4.7
+      },
+      {
+        "id": 202,
+        "name": "Gaming Laptop X",
+        "category": "Electronics",
+        "price": 95000,
+        "specifications": {
+          "processor": "AMD Ryzen 7",
+          "ram": "16GB",
+          "storage": "512GB SSD",
+          "gpu": "NVIDIA RTX 3060",
+          "os": "Windows 11"
+        },
+        "stock": 30,
+        "rating": 4.8
+      }
+    ],
+    "policies": {
+      "leave": {
+        "annualLeave": 20,
+        "sickLeave": 10,
+        "maternityLeave": 180
+      },
+      "insurance": {
+        "health": "Comprehensive Health Plan",
+        "life": "2x Annual Salary",
+        "dental": "Basic Dental Coverage"
+      },
+      "workingHours": {
+        "start": "09:00 AM",
+        "end": "06:00 PM",
+        "remoteWorkPolicy": "Available on Request"
+      }
+    }
+  }
+}
